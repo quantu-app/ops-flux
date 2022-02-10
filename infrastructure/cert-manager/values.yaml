@@ -1,0 +1,6 @@
+installCRDs: true
+prometheus:
+  enabled: false
+ingressShim:
+  defaultIssuerName: letsencrypt
+  defaultIssuerKind: ClusterIssuer
