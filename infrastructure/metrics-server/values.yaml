@@ -1,4 +1,5 @@
 apiService:
   create: true
 args:
-  - --kubelet-insecure-tls=true
+  - "--kubelet-preferred-address-types=InternalIP,InternalDNS,Hostname,ExternalDNS,ExternalIP"
+  - "--kubelet-insecure-tls"
