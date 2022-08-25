@@ -10,7 +10,7 @@ spec:
         kind: HelmRepository
         name: jetstack
         namespace: flux-system
-      version: 1.7.x
+      version: 1.9.x
   interval: 1h0m0s
   releaseName: cert-manager
   valuesFrom:
