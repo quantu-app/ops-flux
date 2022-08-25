@@ -10,7 +10,7 @@ spec:
         kind: HelmRepository
         name: fairwinds
         namespace: flux-system
-      version: 5.2.x
+      version: 6.2.x
   interval: 1h0m0s
   install:
     remediation:
