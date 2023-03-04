@@ -7,10 +7,10 @@
 ## Local
 - ```bash
   flux bootstrap git \
-  --url=ssh://git@github.com/quantu/ops-flux \
+  --url=ssh://git@github.com/quantu-app/ops-flux.git \
   --private-key-file=$HOME/.ssh/id_rsa \
   --branch=main \
-  --path=clusters/local
+  --path=clusters/production
   ```
 - create token admin-user token `kubectl -n kube-public create token admin-user`
 - kubernetes dashboard `https://kubernetes-dashboard.docker.internal`
